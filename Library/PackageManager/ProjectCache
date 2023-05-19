@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638194026824268537
-    m_Hash: 3241075985
+      ticks: 638200828288461266
+    m_Hash: 3383869657
   m_LockFileStatus:
     m_FilePath: C:/Users/petri.lautamaki/Liiketesti/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638194026824313846
-    m_Hash: 3130119085
+      ticks: 638200828288617517
+    m_Hash: 3040238069
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -135,6 +135,7 @@ m_PackageAssets:
         - 7.0.8
         - 7.0.9
         - 7.0.10
+        - 7.0.11
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
