@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Background.meta
+    - Assets/Background/Background.png
+    - Assets/Background/Background.png.meta
+    - Assets/Background/CloudMaterial.mat
+    - Assets/Background/CloudMaterial.mat.meta
+    - Assets/Background/Cloud_1.png
+    - Assets/Background/Cloud_1.png.meta
+    - Assets/Background/Cloud_2.png
+    - Assets/Background/Cloud_2.png.meta
+    - Assets/Character.meta
+    - Assets/Character/1x.png
+    - Assets/Character/1x.png.meta
+    - Assets/Character/Character motion.controller
+    - Assets/Character/Character motion.controller.meta
+    - Assets/Character/Character.anim
+    - Assets/Character/Character.anim.meta
+    - Assets/Character/CharacterMove.cs
+    - Assets/Character/CharacterMove.cs.meta
+    - Assets/Random scripts.meta
+    - Assets/Random scripts/FollowCharacter.cs
+    - Assets/Random scripts/FollowCharacter.cs.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Tiles & Platforms.meta
+    - Assets/Tiles & Platforms/Grass.png
+    - Assets/Tiles & Platforms/Grass.png.meta
+    - Assets/Tiles & Platforms/GrassCliffLeft.png
+    - Assets/Tiles & Platforms/GrassCliffLeft.png.meta
+    - Assets/Tiles & Platforms/GrassCliffMid.png
+    - Assets/Tiles & Platforms/GrassCliffMid.png.meta
+    - Assets/Tiles & Platforms/GrassCliffRight.png
+    - Assets/Tiles & Platforms/GrassCliffRight.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillLeft&Right.png
+    - Assets/Tiles & Platforms/GrassJoinHillLeft&Right.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillLeft.png
+    - Assets/Tiles & Platforms/GrassJoinHillLeft.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillLeft2 WithDropShadow.png
+    - Assets/Tiles & Platforms/GrassJoinHillLeft2 WithDropShadow.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillLeft2&Right2 WithDropShadow.png
+    - Assets/Tiles & Platforms/GrassJoinHillLeft2&Right2 WithDropShadow.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillLeft2.png
+    - Assets/Tiles & Platforms/GrassJoinHillLeft2.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillRight WithDropShadow.png
+    - Assets/Tiles & Platforms/GrassJoinHillRight WithDropShadow.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillRight.png
+    - Assets/Tiles & Platforms/GrassJoinHillRight.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillRight2&Left2.png
+    - Assets/Tiles & Platforms/GrassJoinHillRight2&Left2.png.meta
+    - Assets/Tiles & Platforms/GrassJoinHillRight2.png
+    - Assets/Tiles & Platforms/GrassJoinHillRight2.png.meta
+    - Assets/Tiles & Platforms/GrassLeft.png
+    - Assets/Tiles & Platforms/GrassLeft.png.meta
+    - Assets/Tiles & Platforms/GrassMid.png
+    - Assets/Tiles & Platforms/GrassMid.png.meta
+    - Assets/Tiles & Platforms/GrassRight.png
+    - Assets/Tiles & Platforms/GrassRight.png.meta
+    - Assets/Tiles & Platforms/HillLeft.png
+    - Assets/Tiles & Platforms/HillLeft.png.meta
+    - Assets/Tiles & Platforms/HillLeft2 WithDropShadow.png
+    - Assets/Tiles & Platforms/HillLeft2 WithDropShadow.png.meta
+    - Assets/Tiles & Platforms/HillLeft2.png
+    - Assets/Tiles & Platforms/HillLeft2.png.meta
+    - Assets/Tiles & Platforms/HillRight.png
+    - Assets/Tiles & Platforms/HillRight.png.meta
+    - Assets/Tiles & Platforms/HillRight2 WithDropShadow.png
+    - Assets/Tiles & Platforms/HillRight2 WithDropShadow.png.meta
+    - Assets/Tiles & Platforms/HillRight2.png
+    - Assets/Tiles & Platforms/HillRight2.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
