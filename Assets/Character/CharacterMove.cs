@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterMove : MonoBehaviour
 {
     public float speed = 10.0f;
     public float jumpForce = 5.0f;
+    public float fallMultiplier = 2.5f;
+    public float lowJumpMultiplier = 2f;
     private bool isJumping = false;
     private Rigidbody2D charBody;
     private Animator anim;
@@ -40,9 +40,19 @@ public class CharacterMove : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && !isJumping)
         {
-            charBody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            charBody.velocity = new Vector2(charBody.velocity.x, jumpForce);
             isJumping = true;
             anim.SetBool("IsJumping", true);
+        }
+        else if (charBody.velocity.y < 0)
+        {
+            // This makes the character fall faster than they rise
+            charBody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        else if (charBody.velocity.y > 0 && !Input.GetKey(KeyCode.W))
+        {
+            // This makes the character start falling if the jump button is not held
+            charBody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
     }
 
@@ -52,6 +62,9 @@ public class CharacterMove : MonoBehaviour
         {
             isJumping = false;
             anim.SetBool("IsJumping", false);
+
+            // Calculate and check surface angle
+            CalculateSurfaceAngle(collision);
         }
     }
 
@@ -61,5 +74,13 @@ public class CharacterMove : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    private void CalculateSurfaceAngle(Collision2D collision)
+    {
+        ContactPoint2D contact = collision.contacts[0];
+        Vector2 surfaceNormal = contact.normal;
+        float surfaceAngle = Vector2.Angle(Vector2.up, surfaceNormal);
+        Debug.Log("Surface Angle: " + surfaceAngle);
     }
 }
