@@ -59,7 +59,7 @@
     <Compile Include="Assets\FlatGround.cs" />
     <Compile Include="Assets\Scripts\FollowCharacter.cs" />
     <Compile Include="Assets\Character\CharacterMove.cs" />
-    <Compile Include="Assets\SnapToGrid.cs" />
+    <Compile Include="Assets\Character\CharacterMoveOld.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
